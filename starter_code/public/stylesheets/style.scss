@@ -1,14 +1,16 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("https://media.threatpost.com/wp-content/uploads/sites/103/2016/10/06233221/shutterstock_96838054.jpg");
 }
 
 a {
-  color: #00B7FF;
+  color: brown;
 }
 #form {
   margin: 30px auto;
   width: 380px;
+  background-color: transparent;
 }
 
 #form label {
@@ -28,9 +30,16 @@ a {
   width: 100%;
 }
 
+.title {
+  color: brown;
+  text-align: center;
+  width: 20%;
+  /* line-height: 50%; */
+}
+
 #form button {
-  background: #43a3e6;
-  border: 1px solid #43a3e6;
+  background: brown;
+  border: 1px solid brown;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
@@ -39,12 +48,33 @@ a {
   padding: 8px 16px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: .3s ease background;
+  transition: 0.3s ease background;
   width: 100%;
 }
 
 #form button:hover {
   background: #fff;
-  color: #43a3e6;
-  transition: .3s ease background;
+  color: red;
+  transition: 0.3s ease background;
+}
+
+ul {
+  margin-right: 1px;
+  list-style-type: none;
+  margin: 10%;
+}
+
+ul li {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20%;
+  font-size: 1.5em;
+  border: 2px dashed black;
+  width: 100px;
+}
+
+ul li:hover {
+  background: #fff;
+  transition: 0.3s ease background;
 }
